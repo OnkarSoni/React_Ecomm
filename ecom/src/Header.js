@@ -16,7 +16,7 @@ function Header() {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand> <Link to="/" className="home_ico">HOME PAGE</Link></Navbar.Brand>
+                    <Navbar.Brand> <Link to="/" className="home_ico">HOME</Link></Navbar.Brand>
                     <Nav className="me-auto nav_bar_wrapper">
                         {
                             localStorage.getItem('user-info') ?
