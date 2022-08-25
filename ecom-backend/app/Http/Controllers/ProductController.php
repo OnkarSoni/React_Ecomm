@@ -28,7 +28,7 @@ class ProductController extends Controller
         if ($product == true)
             return response(['Success' => ['Product Deleted']]);
         else
-            return response(['Error' => ['Error Occured']]);
+            return response(['Error' => ['Error Occured while deleting']]);
     }
 
     function getproduct($id)
